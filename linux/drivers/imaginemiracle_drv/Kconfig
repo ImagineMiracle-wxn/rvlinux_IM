@@ -1,0 +1,40 @@
+#
+# Drivers configuration by wxn
+#
+
+menu "ImagineMiracle_Drv support"
+
+config IMAGINEMIRACLE_DRV
+     tristate "ImagineMiracle_Drv support"
+     ---help---
+       Allows the kernel to support device drivers developed by wxn.
+       If you don't know what to do here, definitely say N.
+
+if IMAGINEMIRACLE_DRV
+
+config IMAGINEMIRACLE_BUF
+    bool "Enable IMiracle_Buf"
+    default y
+    help
+      Allows the kernel to support a shared memory device like "/dev/Buf_IM_v0.0".
+      If you don't know, say Y.
+
+config IMAGINEMIRACLE_AURORA
+    bool "Enable IMiracle_Aurora"
+    default y
+    help
+      Allow kernel to support Aurora devices "/dev/Aurora_Dev_IM-v0.2"(currently write-only devices).
+      If you don't know, say Y.
+
+config IMAGINEMIRACLE_NET
+    bool "Enable IMiracle_Loopback"
+    default y
+    help
+      Turning on thisetting will turn on the loopback network card driver.
+      If you don't know, say Y.
+
+
+endif # IMAGINEMIRACLE_DRV
+endmenu # ImagineMiracle_Drv support
+
+

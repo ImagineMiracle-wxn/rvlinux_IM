@@ -1,0 +1,1 @@
+cmd_kernel/power/built-in.o :=  rm -f kernel/power/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD kernel/power/built-in.o kernel/power/qos.o kernel/power/main.o ; scripts/mod/modpost kernel/power/built-in.o

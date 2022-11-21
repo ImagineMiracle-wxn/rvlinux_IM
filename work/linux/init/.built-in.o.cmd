@@ -1,0 +1,1 @@
+cmd_init/built-in.o :=  rm -f init/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD init/built-in.o init/main.o init/version.o init/mounts.o init/initramfs.o init/calibrate.o init/init_task.o ; scripts/mod/modpost init/built-in.o

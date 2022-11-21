@@ -1,0 +1,1 @@
+cmd_arch/riscv/lib/built-in.o :=  rm -f arch/riscv/lib/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD arch/riscv/lib/built-in.o arch/riscv/lib/lib-ksyms.o ; scripts/mod/modpost arch/riscv/lib/built-in.o

@@ -1,0 +1,1 @@
+cmd_block/partitions/built-in.o :=  rm -f block/partitions/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD block/partitions/built-in.o block/partitions/check.o block/partitions/msdos.o block/partitions/efi.o ; scripts/mod/modpost block/partitions/built-in.o

@@ -1,0 +1,1 @@
+cmd_arch/riscv/kernel/vdso/built-in.o :=  rm -f arch/riscv/kernel/vdso/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD arch/riscv/kernel/vdso/built-in.o arch/riscv/kernel/vdso/vdso.o arch/riscv/kernel/vdso/vdso-syms.o ; scripts/mod/modpost arch/riscv/kernel/vdso/built-in.o

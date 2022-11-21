@@ -1,0 +1,1 @@
+__cached_set_-e;_TMP_".__.tmp";_TMPO_".__.o";_if___printf_"%b_n"_".arch_armv7-a_n.arch_extension_sec"_|_riscv64-unknown-linux-gnu-gcc_-D__ASSEMBLY___-fno-PIE_-mabi_lp64_-march_rv64imafdc_-DCC_HAVE_ASM_GOTO______-c_-x_assembler_-o_"_TMP"_-__>/dev/null_2>&1;_then_echo_"-DREQUIRES_SEC_1";_else_echo_"";_fi;_rm_-f_"_TMP"_"_TMPO" := 

@@ -1,0 +1,1 @@
+cmd_drivers/tty/hvc/built-in.o :=  rm -f drivers/tty/hvc/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/tty/hvc/built-in.o drivers/tty/hvc/hvc_console.o drivers/tty/hvc/hvc_riscv_sbi.o ; scripts/mod/modpost drivers/tty/hvc/built-in.o

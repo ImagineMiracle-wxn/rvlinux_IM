@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.o :=  rm -f drivers/power/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/power/built-in.o drivers/power/supply/built-in.o ; scripts/mod/modpost drivers/power/built-in.o

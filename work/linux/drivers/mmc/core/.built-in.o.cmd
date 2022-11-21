@@ -1,0 +1,1 @@
+cmd_drivers/mmc/core/built-in.o :=  rm -f drivers/mmc/core/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/mmc/core/built-in.o drivers/mmc/core/mmc_core.o drivers/mmc/core/pwrseq_simple.o drivers/mmc/core/pwrseq_emmc.o drivers/mmc/core/mmc_block.o drivers/mmc/core/mmc_test.o ; scripts/mod/modpost drivers/mmc/core/built-in.o

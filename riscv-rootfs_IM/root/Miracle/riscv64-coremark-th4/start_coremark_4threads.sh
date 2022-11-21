@@ -1,0 +1,2 @@
+#!/bin/bash
+make PORT_DIR=riscv64  XCFLAGS="-DMULTITHREAD=4 -DUSE_PTHREAD"

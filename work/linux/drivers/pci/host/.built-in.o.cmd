@@ -1,0 +1,1 @@
+cmd_drivers/pci/host/built-in.o :=  rm -f drivers/pci/host/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/pci/host/built-in.o drivers/pci/host/pcie-xilinx.o ; scripts/mod/modpost drivers/pci/host/built-in.o

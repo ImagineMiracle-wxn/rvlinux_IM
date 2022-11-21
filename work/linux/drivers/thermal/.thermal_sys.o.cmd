@@ -1,0 +1,1 @@
+cmd_drivers/thermal/thermal_sys.o := rm -f drivers/thermal/thermal_sys.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/thermal/thermal_sys.o drivers/thermal/thermal_core.o drivers/thermal/thermal_sysfs.o drivers/thermal/thermal_helpers.o drivers/thermal/of-thermal.o drivers/thermal/step_wise.o drivers/thermal/user_space.o

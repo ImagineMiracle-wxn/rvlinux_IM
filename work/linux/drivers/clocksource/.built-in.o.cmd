@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/built-in.o :=  rm -f drivers/clocksource/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/clocksource/built-in.o drivers/clocksource/timer-of.o drivers/clocksource/timer-probe.o drivers/clocksource/riscv_timer.o ; scripts/mod/modpost drivers/clocksource/built-in.o

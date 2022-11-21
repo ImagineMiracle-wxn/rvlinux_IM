@@ -1,0 +1,1 @@
+cmd_drivers/media/common/built-in.o :=  rm -f drivers/media/common/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/media/common/built-in.o drivers/media/common/b2c2/built-in.o drivers/media/common/saa7146/built-in.o drivers/media/common/siano/built-in.o drivers/media/common/v4l2-tpg/built-in.o ; scripts/mod/modpost drivers/media/common/built-in.o

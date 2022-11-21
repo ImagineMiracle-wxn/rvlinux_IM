@@ -1,0 +1,8 @@
+#!/bin/bash
+# Version: 1.0.1
+# Date: 12/12/2020
+# Author: wxn <imaginemiracle.wxn@outlook.com>
+# This script can burn the bbl.bin to the SD card separately.
+
+sudo dd if=$1 of=/dev/$2 bs=4096 conv=fsync
+echo "Write image to sd card completion"

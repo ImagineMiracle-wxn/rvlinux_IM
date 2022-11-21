@@ -1,0 +1,1 @@
+cmd_drivers/ata/libata.o := rm -f drivers/ata/libata.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/ata/libata.o drivers/ata/libata-core.o drivers/ata/libata-scsi.o drivers/ata/libata-eh.o drivers/ata/libata-transport.o drivers/ata/libata-trace.o drivers/ata/libata-sff.o drivers/ata/libata-pmp.o

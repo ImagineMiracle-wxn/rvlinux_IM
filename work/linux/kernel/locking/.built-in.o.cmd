@@ -1,0 +1,1 @@
+cmd_kernel/locking/built-in.o :=  rm -f kernel/locking/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD kernel/locking/built-in.o kernel/locking/mutex.o kernel/locking/semaphore.o kernel/locking/rwsem.o kernel/locking/percpu-rwsem.o kernel/locking/rtmutex.o kernel/locking/rwsem-spinlock.o ; scripts/mod/modpost kernel/locking/built-in.o

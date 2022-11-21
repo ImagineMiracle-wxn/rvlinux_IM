@@ -1,0 +1,1 @@
+cmd_kernel/irq/built-in.o :=  rm -f kernel/irq/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD kernel/irq/built-in.o kernel/irq/irqdesc.o kernel/irq/handle.o kernel/irq/manage.o kernel/irq/spurious.o kernel/irq/resend.o kernel/irq/chip.o kernel/irq/dummychip.o kernel/irq/devres.o kernel/irq/irqdomain.o kernel/irq/proc.o kernel/irq/msi.o ; scripts/mod/modpost kernel/irq/built-in.o

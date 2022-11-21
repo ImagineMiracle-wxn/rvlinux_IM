@@ -1,0 +1,1 @@
+cmd_drivers/mailbox/built-in.o :=  rm -f drivers/mailbox/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/mailbox/built-in.o drivers/mailbox/mailbox.o ; scripts/mod/modpost drivers/mailbox/built-in.o

@@ -1,0 +1,1 @@
+cmd_arch/riscv/mm/built-in.o :=  rm -f arch/riscv/mm/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD arch/riscv/mm/built-in.o arch/riscv/mm/init.o arch/riscv/mm/fault.o arch/riscv/mm/extable.o arch/riscv/mm/ioremap.o arch/riscv/mm/cacheflush.o arch/riscv/mm/dma.o ; scripts/mod/modpost arch/riscv/mm/built-in.o

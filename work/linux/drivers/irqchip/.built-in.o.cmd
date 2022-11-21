@@ -1,0 +1,1 @@
+cmd_drivers/irqchip/built-in.o :=  rm -f drivers/irqchip/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/irqchip/built-in.o drivers/irqchip/irqchip.o drivers/irqchip/irq-riscv-intc.o drivers/irqchip/irq-riscv-plic.o ; scripts/mod/modpost drivers/irqchip/built-in.o

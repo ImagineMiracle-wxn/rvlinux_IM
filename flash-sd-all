@@ -1,0 +1,3 @@
+#!/bin/bash
+make DISK=/dev/$1 sd-write
+echo "Write image to sd card completion"

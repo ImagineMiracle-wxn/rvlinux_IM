@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/8250/built-in.o :=  rm -f drivers/tty/serial/8250/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/tty/serial/8250/built-in.o drivers/tty/serial/8250/8250.o drivers/tty/serial/8250/8250_base.o drivers/tty/serial/8250/8250_early.o drivers/tty/serial/8250/8250_of.o ; scripts/mod/modpost drivers/tty/serial/8250/built-in.o

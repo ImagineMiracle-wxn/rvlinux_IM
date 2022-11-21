@@ -1,0 +1,1 @@
+cmd_drivers/scsi/scsi_devinfo_tbl.c := sed -n 's/.*BLIST_\([A-Z0-9_]*\) *.*/BLIST_FLAG_NAME(\1),/p' /home/imaginemiracle/Miracle/risc-v/rvlinux_IM/linux/include/scsi/scsi_devinfo.h > drivers/scsi/scsi_devinfo_tbl.c

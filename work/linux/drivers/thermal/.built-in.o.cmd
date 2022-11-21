@@ -1,0 +1,1 @@
+cmd_drivers/thermal/built-in.o :=  rm -f drivers/thermal/built-in.o; riscv64-unknown-linux-gnu-ar rcSTPD drivers/thermal/built-in.o drivers/thermal/thermal_sys.o drivers/thermal/broadcom/built-in.o drivers/thermal/samsung/built-in.o drivers/thermal/tegra/built-in.o ; scripts/mod/modpost drivers/thermal/built-in.o
