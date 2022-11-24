@@ -71,7 +71,7 @@ $ ls /dev/sd*
 
 
 ```shell
-e.g.
+# e.g.
 
 $ ./flash-sd-all sdd
 # 烧写成功后会显示烧写速度、大小和耗时
