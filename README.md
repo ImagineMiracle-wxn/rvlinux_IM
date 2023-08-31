@@ -12,7 +12,7 @@
 
 `resources_IM/cpu_test:`一些移植好的测试工具
 
-`resources_IM/revreat_rootfs.sh:` 执行该脚本可重新生成 `linux` 文件系统到 `riscv-rootfs_IM`
+`resources_IM/recreat_rootfs.sh:` 执行该脚本可重新生成 `linux` 文件系统到 `riscv-rootfs_IM`
 
 `riscv-pk/bbl:` `bootloader` 代码
 
